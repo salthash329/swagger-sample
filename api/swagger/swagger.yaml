@@ -46,7 +46,7 @@ paths:
     # binds a127 app logic to a route
     x-swagger-router-controller: goodbye
     get:
-      description: Returns 'Good Bye' to the caller
+      description: Returns 'Good Bye' to the API Caller.
       # used as the method name of the controller
       operationId: goodbye
       parameters:
